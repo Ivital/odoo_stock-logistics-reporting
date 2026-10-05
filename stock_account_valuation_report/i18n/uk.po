@@ -108,3 +108,48 @@ msgstr "Розбіжність оцінки"
 #: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__valuation_layer_ids
 msgid "Valuation Layer"
 msgstr "Шар оцінки"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__account_qty_at_date
+msgid "Accounting Quantity"
+msgstr "Облікова кількість"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_product_tree2
+msgid "Accounting Valuation"
+msgstr "Бухгалтерська оцінка"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.actions.act_window,help:stock_account_valuation_report.product_valuation_action
+msgid "Create a product to see its name and valuation."
+msgstr "Створіть товар, щоб побачити його назву та оцінку."
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_stock_valuation_history__inventory_datetime
+msgid "Dual Valuation at Date"
+msgstr "Подвійна оцінка на дату"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__qty_at_date
+msgid "Inventory Quantity"
+msgstr "Кількість запасів"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__stock_fifo_real_time_aml_ids
+msgid "Stock Fifo Real Time Aml"
+msgstr "FIFO запасів у реальному часі AML"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.product_search_form_view
+msgid "Valuation Or Qty Discrepancy"
+msgstr "Розбіжність оцінки або кількості"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_product_tree2
+msgid "View Journal Items"
+msgstr "Переглянути журнальні записи"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_product_tree2
+msgid "View Valuation Layers"
+msgstr "Переглянути шари оцінки"

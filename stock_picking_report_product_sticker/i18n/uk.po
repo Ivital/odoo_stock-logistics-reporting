@@ -40,3 +40,8 @@ msgstr "Показувати наліпки товару"
 #: model:ir.model.fields.selection,name:stock_picking_report_product_sticker.selection__stock_picking_type__show_product_stickers__top_right
 msgid "Top (right)"
 msgstr "Вгорі (праворуч)"
+
+#. module: stock_picking_report_product_sticker
+#: model:ir.model.fields,help:stock_picking_report_product_sticker.field_stock_picking_type__show_product_stickers
+msgid "Display Product Stickers on chosen position inside the report."
+msgstr "Відображати наклейки товару у вибраному місці звіту."

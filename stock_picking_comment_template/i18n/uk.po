@@ -27,3 +27,8 @@ msgstr "Коментарі до документів"
 #: model:ir.model.fields,field_description:stock_picking_comment_template.field_stock_picking__comment_template_ids
 msgid "Comment Template"
 msgstr "Шаблон коментаря"
+
+#. module: stock_picking_comment_template
+#: model:ir.actions.act_window,name:stock_picking_comment_template.action_stock_picking_comment_template
+msgid "Stock Picking Comment Templates"
+msgstr "Шаблони коментарів переміщення запасів"

@@ -22,3 +22,8 @@ msgstr "Комплект товару"
 #: model:ir.model.fields,field_description:stock_picking_report_valued_sale_mrp.field_stock_move_line__phantom_line
 msgid "Phantom Line"
 msgstr "Фантомний рядок"
+
+#. module: stock_picking_report_valued_sale_mrp
+#: model:ir.model.fields,field_description:stock_picking_report_valued_sale_mrp.field_stock_move_line__phantom_delivered_qty
+msgid "Phantom Delivered Qty"
+msgstr "Доставлена кількість phantom"

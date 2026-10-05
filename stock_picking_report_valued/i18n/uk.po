@@ -81,3 +81,36 @@ msgstr "Сума без податків"
 #: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_picking__valued
 msgid "Valued Picking"
 msgstr "Оцінене переміщення"
+
+#. module: stock_picking_report_valued
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_valued.valued_report_picking
+msgid "<strong>Taxes</strong>"
+msgstr "<strong>Податки</strong>"
+
+#. module: stock_picking_report_valued
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_valued.valued_report_picking
+msgid "<strong>Unit Price</strong>"
+msgstr "<strong>Ціна за одиницю</strong>"
+
+#. module: stock_picking_report_valued
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_valued.valued_report_picking
+msgid "<strong>Untaxed Amount</strong>"
+msgstr "<strong>Сума без податків</strong>"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_move_line__sale_line
+msgid "Related order line"
+msgstr "Пов’язаний рядок замовлення"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_move_line__sale_discount
+msgid "Sale discount (%)"
+msgstr "Знижка продажу (%)"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,help:stock_picking_report_valued.field_res_partner__valued_picking
+#: model:ir.model.fields,help:stock_picking_report_valued.field_res_users__valued_picking
+#: model:ir.model.fields,help:stock_picking_report_valued.field_stock_picking__valued
+msgid "You can select which partners have valued pickings"
+msgstr ""
+"Можна вибрати, для яких контрагентів переміщення мають відображати вартість"

@@ -164,3 +164,40 @@ msgstr "Знімок запасів"
 #: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history__product_uom_id
 msgid "Unit of Measure"
 msgstr "Одиниця вимірювання"
+
+#. module: stock_quant_history
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_snapshot_form
+msgid "<span>History details</span>"
+msgstr "<span>Деталі історії</span>"
+
+#. module: stock_quant_history
+#: model_terms:ir.actions.act_window,help:stock_quant_history.action_stock_quant_history_snapshot
+msgid "Create your first snapshot!"
+msgstr "Створіть свій перший знімок!"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history__product_uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr "Типова одиниця вимірювання для всіх складських операцій."
+
+#. module: stock_quant_history
+#: model_terms:ir.actions.act_window,help:stock_quant_history.action_stock_quant_history
+msgid "Generate stock quant history from stock quant history snapshot before!"
+msgstr ""
+"Спочатку створіть історію складських залишків зі знімка історії складських "
+"залишків!"
+
+#. module: stock_quant_history
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_search
+msgid "Location and sub-locations of"
+msgstr "Місце та підмісця"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history__snapshot_id
+msgid "Snapshot settings"
+msgstr "Налаштування знімків"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history_snapshot__stock_quant_history_ids
+msgid "Stock quant history"
+msgstr "Історія квантів запасів"

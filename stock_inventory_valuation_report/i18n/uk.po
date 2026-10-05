@@ -171,3 +171,33 @@ msgstr "Стандартна собівартість"
 #: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.view_stock_valuation_quantity_history
 msgid "View report"
 msgstr "Переглянути звіт"
+
+#. module: stock_inventory_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.report_buttons
+msgid "<span class=\"fa fa-download\"/>Export"
+msgstr "<span class=\"fa fa-download\"/>Експорт"
+
+#. module: stock_inventory_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.report_buttons
+msgid "<span class=\"fa fa-print\"/>Print"
+msgstr "<span class=\"fa fa-print\"/>Друк"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_report_stock_inventory_valuation_report__inventory_datetime
+msgid "Inventory Datetime"
+msgstr "Дата й час інвентаризації"
+
+#. module: stock_inventory_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.view_stock_valuation_quantity_history
+msgid "Retrieve the Inventory Quantities"
+msgstr "Отримати кількості інвентаризації"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.actions.report,name:stock_inventory_valuation_report.action_stock_inventory_valuation_report_pdf
+msgid "Stock Inventory Valuation Report PDF"
+msgstr "PDF-звіт оцінки складських запасів"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.actions.report,name:stock_inventory_valuation_report.action_stock_inventory_valuation_report_xlsx
+msgid "Stock Inventory Valuation Report XLSX"
+msgstr "Звіт оцінки запасів XLSX"

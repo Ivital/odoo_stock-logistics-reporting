@@ -137,3 +137,54 @@ msgstr "Загальна стандартна собівартість"
 #: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
 msgid "Total price"
 msgstr "Загальна ціна"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.view_picking_summary_wizard_form
+msgid "For Pickings details"
+msgstr "Для деталей комплектувань"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.view_picking_summary_wizard_form
+msgid "General informations"
+msgstr "Загальна інформація"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__picking_line_qty
+msgid "Number of Selected Picking"
+msgstr "Кількість вибраних переміщень"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
+msgid "Pickings Details"
+msgstr "Деталі комплектувань"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__print_details
+msgid "Print Picking Details"
+msgstr "Друкувати деталі комплектування"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__print_prices
+msgid "Print Standard Prices"
+msgstr "Друкувати стандартні ціни"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
+msgid "Products Summary"
+msgstr "Підсумок товарів"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
+msgid "Standard Unit Price"
+msgstr "Стандартна ціна за одиницю"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,help:stock_picking_report_summary.field_picking_summary_wizard_product__standard_price
+msgid ""
+"Value of the product (automatically computed in AVCO).\n"
+"        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+"Вартість товару (автоматично обчислюється в AVCO).\n"
+"        Використовується для оцінки товару, коли закупівельна собівартість невідома (наприклад, під час коригування запасів).\n"
+"        Використовується для розрахунку маржі в замовленнях на продаж."

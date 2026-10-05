@@ -126,3 +126,13 @@ msgstr "Переміщення запасів №"
 #: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__product_uom
 msgid "Unit of Measure"
 msgstr "Одиниця вимірювання"
+
+#. module: stock_move_delay_report
+#: model_terms:ir.actions.act_window,help:stock_move_delay_report.action_stock_move_delay_report
+msgid "Complete a new stock move"
+msgstr "Завершити нове переміщення запасів"
+
+#. module: stock_move_delay_report
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_search_view
+msgid "Scheduled or processing date"
+msgstr "Запланована або оброблювана дата"

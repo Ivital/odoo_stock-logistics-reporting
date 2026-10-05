@@ -89,3 +89,81 @@ msgstr "Звіт вартості операцій"
 #: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_scrap_value_document
 msgid "Scrap"
 msgstr "Брак"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_picking_value_document
+msgid ""
+"<span>\n"
+"                                    <strong>Delivery Address:</strong>\n"
+"                                </span>"
+msgstr ""
+"<span>\n"
+"                                    <strong>Адреса доставки:</strong>\n"
+"                                </span>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_picking_value_document
+msgid ""
+"<span>\n"
+"                                    <strong>Partner Address:</strong>\n"
+"                                </span>"
+msgstr ""
+"<span>\n"
+"                                    <strong>Адреса партнера:</strong>\n"
+"                                </span>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_picking_value_document
+msgid ""
+"<span>\n"
+"                                    <strong>Warehouse Address:</strong>\n"
+"                                </span>"
+msgstr ""
+"<span>\n"
+"                                    <strong>Адреса складу:</strong>\n"
+"                                </span>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_picking_value_document
+msgid "<strong>Commitment Date</strong>"
+msgstr "<strong>Дата зобов’язання</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_picking_value_document
+msgid "<strong>Order (Origin)</strong>"
+msgstr "<strong>Замовлення (походження)</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_picking_value_document
+msgid "<strong>Scheduled Date</strong>"
+msgstr "<strong>Запланована дата</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_scrap_value_document
+msgid "<strong>Source Document</strong>"
+msgstr "<strong>Документ-джерело</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_move_value_document
+msgid "<strong>Total operations value balance</strong>"
+msgstr "<strong>Загальний баланс вартості операцій</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.stock_move_lines_value
+msgid "<strong>Value</strong>"
+msgstr "<strong>Значення</strong>"
+
+#. module: stock_move_value_report
+#: model:ir.actions.report,name:stock_move_value_report.action_report_stock_picking_value
+msgid "Picking Operations Cost Value"
+msgstr "Вартість операцій переміщення"
+
+#. module: stock_move_value_report
+#: model:ir.actions.report,name:stock_move_value_report.action_report_stock_scrap_value
+msgid "Scrap Operations Cost Value"
+msgstr "Вартість операцій списання"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_move_value_document
+msgid "Selected operations cost value"
+msgstr "Вартість вибраних операцій"

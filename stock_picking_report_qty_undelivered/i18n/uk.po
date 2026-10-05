@@ -22,3 +22,13 @@ msgstr "<strong>Товар</strong>"
 #: model_terms:ir.ui.view,arch_db:stock_picking_report_qty_undelivered.report_delivery_document_qty_not_done
 msgid "<strong>Quantity</strong>"
 msgstr "<strong>Кількість</strong>"
+
+#. module: stock_picking_report_qty_undelivered
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_qty_undelivered.report_delivery_document_qty_not_done
+msgid "<span>Summary of undelivered quantities:</span>"
+msgstr "<span>Підсумок недоставлених кількостей:</span>"
+
+#. module: stock_picking_report_qty_undelivered
+#: model:ir.model.fields,field_description:stock_picking_report_qty_undelivered.field_stock_picking_type__summary_qty_undelivered
+msgid "Print a summary with undelivered qty"
+msgstr "Друкувати підсумок із недоставленою кількістю"

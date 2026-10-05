@@ -28,3 +28,13 @@ msgstr "Склад"
 #: model:ir.model.fields,field_description:stock_picking_operations_multilang.field_stock_warehouse__active_lang_count
 msgid "Active Lang Count"
 msgstr "Кількість активних мов"
+
+#. module: stock_picking_operations_multilang
+#: model:ir.model.fields,field_description:stock_picking_operations_multilang.field_stock_warehouse__picking_operation_language_option
+msgid "Picking Operation Language Option"
+msgstr "Параметр мови операції переміщення"
+
+#. module: stock_picking_operations_multilang
+#: model:ir.model.fields,field_description:stock_picking_operations_multilang.field_stock_warehouse__warehouse_language
+msgid "Warehouse Language"
+msgstr "Мова складу"
