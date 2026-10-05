@@ -23,3 +23,8 @@ msgstr "Зовнішня примітка"
 msgid "Add an external note that will be printed on the Delivery Slip report"
 msgstr ""
 "Додати зовнішню примітку, яка друкуватиметься у звіті накладної на доставку"
+
+#. module: stock_picking_report_external_note
+#: model:ir.model.fields,help:stock_picking_report_external_note.field_stock_picking__external_note
+msgid "External note to be printed in external reports like Delivery Slip"
+msgstr "Зовнішня примітка для друку у зовнішніх звітах, наприклад у накладній"

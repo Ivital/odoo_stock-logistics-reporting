@@ -32,3 +32,8 @@ msgstr "<span>Підсумок недоставлених кількостей:<
 #: model:ir.model.fields,field_description:stock_picking_report_qty_undelivered.field_stock_picking_type__summary_qty_undelivered
 msgid "Print a summary with undelivered qty"
 msgstr "Друкувати підсумок із недоставленою кількістю"
+
+#. module: stock_picking_report_qty_undelivered
+#: model:ir.model.fields,help:stock_picking_report_qty_undelivered.field_stock_picking_type__summary_qty_undelivered
+msgid "Print a summary with undelivered quantity in the picking report"
+msgstr "Друкувати підсумок із недоставленою кількістю у звіті комплектування"

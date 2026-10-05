@@ -153,3 +153,13 @@ msgstr "Переглянути журнальні записи"
 #: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_product_tree2
 msgid "View Valuation Layers"
 msgstr "Переглянути шари оцінки"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,help:stock_account_valuation_report.field_stock_valuation_history__inventory_datetime
+msgid "Choose a date to get the valuation at that date"
+msgstr "Виберіть дату, щоб отримати оцінку станом на неї"
+
+#. module: stock_account_valuation_report
+#: model:ir.model,name:stock_account_valuation_report.model_stock_valuation_history
+msgid "Stock Valuation History"
+msgstr "Історія оцінки запасів"

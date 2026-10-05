@@ -201,3 +201,18 @@ msgstr "PDF-звіт оцінки складських запасів"
 #: model:ir.actions.report,name:stock_inventory_valuation_report.action_stock_inventory_valuation_report_xlsx
 msgid "Stock Inventory Valuation Report XLSX"
 msgstr "Звіт оцінки запасів XLSX"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.model,name:stock_inventory_valuation_report.model_report_s_i_v_r_report_stock_inventory_valuation_report_xlsx
+msgid "Report Stock Inventory Valuation xlsx"
+msgstr "XLSX-звіт оцінки інвентаризації запасів"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.model,name:stock_inventory_valuation_report.model_report_stock_inventory_valuation_report
+msgid "Stock Inventory Valuation Report"
+msgstr "Звіт оцінки інвентаризації запасів"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.model,name:stock_inventory_valuation_report.model_stock_inventory_valuation_view
+msgid "Stock Inventory Valuation View"
+msgstr "Представлення оцінки інвентаризації запасів"

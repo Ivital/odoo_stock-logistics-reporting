@@ -136,3 +136,31 @@ msgstr "Завершити нове переміщення запасів"
 #: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_search_view
 msgid "Scheduled or processing date"
 msgstr "Запланована або оброблювана дата"
+
+#. module: stock_move_delay_report
+#: model:ir.model,name:stock_move_delay_report.model_stock_move_delay_report
+msgid "Delay Analysis Report"
+msgstr "Звіт аналізу затримок"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,help:stock_move_delay_report.field_stock_move__delivery_time
+msgid ""
+"If the move is done, the difference between the original scheduled date and "
+"the end date"
+msgstr ""
+"Якщо переміщення виконано, різниця між початковою запланованою датою та "
+"датою завершення"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,help:stock_move_delay_report.field_stock_move__date_delay
+msgid ""
+"If the move is done, the difference between the scheduled date and the "
+"deadline"
+msgstr ""
+"Якщо переміщення виконано, різниця між запланованою датою та крайнім "
+"терміном"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,help:stock_move_delay_report.field_stock_move__supplier_id
+msgid "Partner responsible of completing the move on time."
+msgstr "Партнер, відповідальний за своєчасне завершення переміщення."

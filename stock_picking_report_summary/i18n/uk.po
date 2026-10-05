@@ -188,3 +188,18 @@ msgstr ""
 "Вартість товару (автоматично обчислюється в AVCO).\n"
 "        Використовується для оцінки товару, коли закупівельна собівартість невідома (наприклад, під час коригування запасів).\n"
 "        Використовується для розрахунку маржі в замовленнях на продаж."
+
+#. module: stock_picking_report_summary
+#: model:ir.model,name:stock_picking_report_summary.model_picking_summary_wizard
+msgid "Picking Summary Wizard"
+msgstr "Майстер підсумку переміщення"
+
+#. module: stock_picking_report_summary
+#: model:ir.model,name:stock_picking_report_summary.model_picking_summary_wizard_picking
+msgid "Picking Summary Wizard Picking"
+msgstr "Переміщення майстра підсумку"
+
+#. module: stock_picking_report_summary
+#: model:ir.model,name:stock_picking_report_summary.model_picking_summary_wizard_product
+msgid "Picking Summary Wizard Product"
+msgstr "Товар майстра підсумку"

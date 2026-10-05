@@ -39,3 +39,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_report_incoming_delivery_address.field_stock_picking_type__show_pickup_address
 msgid "Show Pick-up Address in report"
 msgstr "Показувати адресу забору у звіті"
+
+#. module: stock_picking_report_incoming_delivery_address
+#: model:ir.model.fields,help:stock_picking_report_incoming_delivery_address.field_stock_picking_type__show_pickup_address
+msgid "Show Pick-up Address in Incoming Report"
+msgstr "Показувати адресу самовивозу у звіті про надходження"

@@ -38,3 +38,12 @@ msgstr "Параметр мови операції переміщення"
 #: model:ir.model.fields,field_description:stock_picking_operations_multilang.field_stock_warehouse__warehouse_language
 msgid "Warehouse Language"
 msgstr "Мова складу"
+
+#. module: stock_picking_operations_multilang
+#: model:ir.model.fields,help:stock_picking_operations_multilang.field_stock_warehouse__picking_operation_language_option
+msgid ""
+"Partner: Picking Operations report will use the partner's language.\n"
+"Warehouse: Picking Operations report will use the language specified in the Warehouse Language field."
+msgstr ""
+"Партнер: звіт складських операцій використовуватиме мову партнера.\n"
+"Склад: звіт складських операцій використовуватиме мову, зазначену в полі «Мова складу»."

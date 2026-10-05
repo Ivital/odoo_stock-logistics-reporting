@@ -201,3 +201,54 @@ msgstr "Налаштування знімків"
 #: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history_snapshot__stock_quant_history_ids
 msgid "Stock quant history"
 msgstr "Історія квантів запасів"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history_snapshot__previous_snapshot_id
+msgid "Base snapshot used to generate this snapshot"
+msgstr "Базовий знімок, використаний для створення цього знімка"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history_snapshot__generated_date
+msgid "Date when stock.quant.history line have been created."
+msgstr "Дата створення рядка stock.quant.history."
+
+#. module: stock_quant_history
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history_snapshot__stock_quant_history_ids
+msgid "Generated stock quant history for current snapshot settings."
+msgstr "Створена історія складських залишків для поточних налаштувань знімка."
+
+#. module: stock_quant_history
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history__company_id
+msgid "Let this field empty if this location is shared between companies"
+msgstr "Залиште це поле порожнім, якщо це місце спільне для кількох компаній"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history__quantity
+msgid ""
+"Quantity of products in this quant, in the default unit of measure of the "
+"product"
+msgstr "Кількість товару в цьому кванті в типовій одиниці вимірювання товару"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history__snapshot_id
+msgid "Snapshot settings used to generate this line"
+msgstr "Налаштування знімка для створення цього рядка"
+
+#. module: stock_quant_history
+#: model:ir.model,name:stock_quant_history.model_stock_quant_history
+msgid "Stock quants history"
+msgstr "Історія квантів запасу"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history__inventory_date
+#: model:ir.model.fields,help:stock_quant_history.field_stock_quant_history_snapshot__inventory_date
+msgid ""
+"The date used to create stock.quant.history as it was for the given date"
+msgstr ""
+"Дата, що використовується для створення stock.quant.history у стані на "
+"вказану дату"
+
+#. module: stock_quant_history
+#: model:ir.model,name:stock_quant_history.model_stock_quant_history_snapshot
+msgid "stock.quant.history generation configuration model"
+msgstr "Модель конфігурації створення stock.quant.history"
