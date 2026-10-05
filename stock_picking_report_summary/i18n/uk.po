@@ -9,6 +9,69 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: stock_picking_report_summary
-#: model:ir.module.module,shortdesc:base.module_stock_picking_report_summary model:ir.module.module,summary:base.module_stock_picking_report_summary
+#: model:ir.module.module,shortdesc:base.module_stock_picking_report_summary
+#: model:ir.module.module,summary:base.module_stock_picking_report_summary
 msgid "Stock Picking Report Summary"
 msgstr "Підсумок звіту про складське переміщення"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
+msgid "Category"
+msgstr "Категорія"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__standard_price
+msgid "Cost"
+msgstr "Вартість"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__create_uid
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_picking__create_uid
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__create_date
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_picking__create_date
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__display_name
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_picking__display_name
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_picking__picking_id
+msgid "Picking"
+msgstr "Переміщення"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__print_unit_in_list
+msgid "Print Units"
+msgstr "Одиниці друку"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__product_line_ids
+msgid "Product Line"
+msgstr "Рядок товару"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
+msgid "Unit"
+msgstr "Одиниця"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_picking__wizard_id
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__wizard_id
+msgid "Wizard"
+msgstr "Майстер"

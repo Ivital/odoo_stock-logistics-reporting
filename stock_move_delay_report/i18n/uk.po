@@ -9,6 +9,68 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: stock_move_delay_report
-#: model:ir.module.module,shortdesc:base.module_stock_move_delay_report model:ir.module.module,summary:base.module_stock_move_delay_report
+#: model:ir.module.module,shortdesc:base.module_stock_move_delay_report
+#: model:ir.module.module,summary:base.module_stock_move_delay_report
 msgid "Stock Move Delay Report"
 msgstr "Звіт про затримки складських переміщень"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__create_date
+msgid "Created Date"
+msgstr "Дата створення"
+
+#. module: stock_move_delay_report
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_search_view
+msgid "Date"
+msgstr "Дата"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move__date_delay
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__date_delay
+msgid "Date Delay"
+msgstr "Затримка дати"
+
+#. module: stock_move_delay_report
+#: model:ir.actions.act_window,name:stock_move_delay_report.action_stock_move_delay_report
+#: model:ir.ui.menu,name:stock_move_delay_report.menu_stock_move_delay_report
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_graph_view
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_pivot_view
+msgid "Delay Analysis"
+msgstr "Аналіз затримок"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__date
+msgid "Done Date"
+msgstr "Дата виконання"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__location_src_id
+msgid "From"
+msgstr "Від"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__reference
+msgid "Reference"
+msgstr "Посилання"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move__supplier_id
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__supplier_id
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_search_view
+msgid "Supplier"
+msgstr "Постачальник"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__location_dest_id
+msgid "To"
+msgstr "Кому"
