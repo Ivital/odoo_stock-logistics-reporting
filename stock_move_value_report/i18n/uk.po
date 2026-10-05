@@ -22,3 +22,70 @@ msgstr "Запаси"
 #: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_move_value_document
 msgid "Picking"
 msgstr "Переміщення"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_picking_value_document
+msgid ""
+"<span>\n"
+"                                    <strong>Customer Address:</strong>\n"
+"                                </span>"
+msgstr ""
+"<span>\n"
+"                                    <strong>Адреса клієнта:</strong>\n"
+"                                </span>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_inventory_value_document
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_scrap_value_document
+msgid "<strong>Date</strong>"
+msgstr "<strong>Дата</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_inventory_value_document
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_scrap_value_document
+msgid "<strong>Location</strong>"
+msgstr "<strong>Місце</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.stock_move_lines_value
+msgid "<strong>Product</strong>"
+msgstr "<strong>Товар</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.stock_move_lines_value
+msgid "<strong>Quantity</strong>"
+msgstr "<strong>Кількість</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_inventory_value_document
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_picking_value_document
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_scrap_value_document
+msgid "<strong>State</strong>"
+msgstr "<strong>Стан</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.stock_move_lines_value
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Проміжний підсумок</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.stock_move_lines_value_total
+msgid "<strong>Total</strong>"
+msgstr "<strong>Разом</strong>"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.stock_move_lines_value
+msgid "Lot/Serial Number"
+msgstr "Партія/серійний номер"
+
+#. module: stock_move_value_report
+#: model:ir.actions.report,name:stock_move_value_report.action_report_stock_move_line_value
+#: model:ir.actions.report,name:stock_move_value_report.action_report_stock_move_value
+msgid "Operations Cost Value Report"
+msgstr "Звіт вартості операцій"
+
+#. module: stock_move_value_report
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_move_value_document
+#: model_terms:ir.ui.view,arch_db:stock_move_value_report.report_stock_scrap_value_document
+msgid "Scrap"
+msgstr "Брак"

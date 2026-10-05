@@ -74,3 +74,55 @@ msgstr "Постачальник"
 #: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__location_dest_id
 msgid "To"
 msgstr "Кому"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move__delivery_time
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__delivery_time
+msgid "Delivery Time"
+msgstr "Час доставки"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__done_on_time
+msgid "Done on Time"
+msgstr "Виконано вчасно"
+
+#. module: stock_move_delay_report
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_graph_view
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_pivot_view
+msgid "Mean Days Delay"
+msgstr "Середня затримка в днях"
+
+#. module: stock_move_delay_report
+#: model_terms:ir.actions.act_window,help:stock_move_delay_report.action_stock_move_delay_report
+msgid "No data yet!"
+msgstr "Даних ще немає!"
+
+#. module: stock_move_delay_report
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_search_view
+msgid "Only Consumable"
+msgstr "Лише витратні матеріали"
+
+#. module: stock_move_delay_report
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_search_view
+msgid "Only Products"
+msgstr "Лише товари"
+
+#. module: stock_move_delay_report
+#: model_terms:ir.ui.view,arch_db:stock_move_delay_report.stock_move_delay_report_search_view
+msgid "Only Services"
+msgstr "Лише послуги"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__original_date
+msgid "Scheduled Date"
+msgstr "Запланована дата"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__move_id
+msgid "Stock Move #"
+msgstr "Переміщення запасів №"
+
+#. module: stock_move_delay_report
+#: model:ir.model.fields,field_description:stock_move_delay_report.field_stock_move_delay_report__product_uom
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"

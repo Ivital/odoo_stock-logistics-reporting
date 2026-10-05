@@ -22,3 +22,8 @@ msgstr "Коментарі"
 #: model:ir.ui.menu,name:stock_picking_comment_template.menu_base_comment_template_picking
 msgid "Document Comments"
 msgstr "Коментарі до документів"
+
+#. module: stock_picking_comment_template
+#: model:ir.model.fields,field_description:stock_picking_comment_template.field_stock_picking__comment_template_ids
+msgid "Comment Template"
+msgstr "Шаблон коментаря"

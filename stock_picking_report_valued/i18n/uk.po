@@ -34,3 +34,50 @@ msgstr "Податки"
 #: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_picking__amount_total
 msgid "Total"
 msgstr "Разом"
+
+#. module: stock_picking_report_valued
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_valued.valued_report_picking
+msgid "<strong>Discount</strong>"
+msgstr "<strong>Знижка</strong>"
+
+#. module: stock_picking_report_valued
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_valued.valued_report_picking
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Проміжний підсумок</strong>"
+
+#. module: stock_picking_report_valued
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_valued.valued_report_picking
+msgid "<strong>Total</strong>"
+msgstr "<strong>Разом</strong>"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_move_line__sale_price_subtotal
+msgid "Price subtotal"
+msgstr "Підсумок ціни"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_move_line__currency_id
+msgid "Sale Currency"
+msgstr "Валюта продажу"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_move_line__sale_price_unit
+msgid "Sale Price Unit"
+msgstr "Ціна одиниці продажу"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_move_line__sale_tax_description
+msgid "Tax Description"
+msgstr "Опис податку"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_picking__amount_untaxed
+msgid "Untaxed Amount"
+msgstr "Сума без податків"
+
+#. module: stock_picking_report_valued
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_res_partner__valued_picking
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_res_users__valued_picking
+#: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_picking__valued
+msgid "Valued Picking"
+msgstr "Оцінене переміщення"

@@ -23,3 +23,8 @@ msgstr "Партнер"
 #: model:ir.model.fields.selection,name:stock_picking_operations_multilang.selection__stock_warehouse__picking_operation_language_option__warehouse
 msgid "Warehouse"
 msgstr "Склад"
+
+#. module: stock_picking_operations_multilang
+#: model:ir.model.fields,field_description:stock_picking_operations_multilang.field_stock_warehouse__active_lang_count
+msgid "Active Lang Count"
+msgstr "Кількість активних мов"

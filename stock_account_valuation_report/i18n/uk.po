@@ -39,3 +39,72 @@ msgstr "Подвійна оцінка запасів"
 #: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.product_search_form_view
 msgid "Manual"
 msgstr "Вручну"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_product_tree2
+msgid "Accounting Qty"
+msgstr "Облікова кількість"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__account_value
+msgid "Accounting Value"
+msgstr "Облікова вартість"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_valuation_history
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_valuation_history
+msgid "Choose your date"
+msgstr "Виберіть дату"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_valuation_history
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__stock_value
+msgid "Inventory Value"
+msgstr "Вартість запасів"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_stock_valuation_history__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_stock_valuation_history__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__qty_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.product_search_form_view
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_product_tree2
+msgid "Qty Discrepancy"
+msgstr "Розбіжність кількості"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.product_search_form_view
+msgid "Real time"
+msgstr "У реальному часі"
+
+#. module: stock_account_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_product_tree2
+msgid "Stock Valuation"
+msgstr "Оцінка запасів"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__valuation_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.product_search_form_view
+#: model_terms:ir.ui.view,arch_db:stock_account_valuation_report.view_stock_product_tree2
+msgid "Valuation Discrepancy"
+msgstr "Розбіжність оцінки"
+
+#. module: stock_account_valuation_report
+#: model:ir.model.fields,field_description:stock_account_valuation_report.field_product_product__valuation_layer_ids
+msgid "Valuation Layer"
+msgstr "Шар оцінки"

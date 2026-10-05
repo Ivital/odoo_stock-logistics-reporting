@@ -22,3 +22,21 @@ msgstr "Наліпки товарів"
 #: model:ir.model.fields,field_description:stock_picking_report_product_sticker.field_stock_picking__sticker_ids
 msgid "Stickers"
 msgstr "Наліпки"
+
+#. module: stock_picking_report_product_sticker
+#: model:ir.model.fields.selection,name:stock_picking_report_product_sticker.selection__stock_picking__show_product_stickers__bottom_left
+#: model:ir.model.fields.selection,name:stock_picking_report_product_sticker.selection__stock_picking_type__show_product_stickers__bottom_left
+msgid "Bottom (left)"
+msgstr "Внизу (ліворуч)"
+
+#. module: stock_picking_report_product_sticker
+#: model:ir.model.fields,field_description:stock_picking_report_product_sticker.field_stock_picking__show_product_stickers
+#: model:ir.model.fields,field_description:stock_picking_report_product_sticker.field_stock_picking_type__show_product_stickers
+msgid "Show Product Stickers"
+msgstr "Показувати наліпки товару"
+
+#. module: stock_picking_report_product_sticker
+#: model:ir.model.fields.selection,name:stock_picking_report_product_sticker.selection__stock_picking__show_product_stickers__top_right
+#: model:ir.model.fields.selection,name:stock_picking_report_product_sticker.selection__stock_picking_type__show_product_stickers__top_right
+msgid "Top (right)"
+msgstr "Вгорі (праворуч)"

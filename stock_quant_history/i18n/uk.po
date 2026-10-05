@@ -76,3 +76,91 @@ msgstr "Статус"
 #: model:ir.ui.menu,name:stock_quant_history.menu_action_stock_quant_history
 msgid "Stock history"
 msgstr "Історія запасів"
+
+#. module: stock_quant_history
+#: model:ir.actions.server,name:stock_quant_history.action_multi_related_stock_quant_history_tree_view
+msgid "Compare stocks"
+msgstr "Порівняти запаси"
+
+#. module: stock_quant_history
+#: model:ir.model.fields.selection,name:stock_quant_history.selection__stock_quant_history_snapshot__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: stock_quant_history
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_snapshot_form
+msgid "Generate"
+msgstr "Згенерувати"
+
+#. module: stock_quant_history
+#: model:ir.model.fields.selection,name:stock_quant_history.selection__stock_quant_history_snapshot__state__generated
+msgid "Generated"
+msgstr "Згенеровано"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history_snapshot__generated_date
+msgid "Generated date"
+msgstr "Дата створення"
+
+#. module: stock_quant_history
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_search
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_snapshot_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history__inventory_date
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history_snapshot__inventory_date
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_search
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_snapshot_search
+msgid "Inventory date"
+msgstr "Дата інвентаризації"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history__write_uid
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history_snapshot__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history__write_date
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history_snapshot__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history__lot_id
+msgid "Lot/Serial Number"
+msgstr "Партія/серійний номер"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history__product_tmpl_id
+msgid "Product Template"
+msgstr "Шаблон товару"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history_snapshot__previous_snapshot_id
+msgid "Snapshot base"
+msgstr "База знімка"
+
+#. module: stock_quant_history
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_search
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_snapshot_search
+msgid "Stock date"
+msgstr "Дата запасів"
+
+#. module: stock_quant_history
+#: model_terms:ir.ui.view,arch_db:stock_quant_history.view_stock_quant_history_pivot
+msgid "Stock quants"
+msgstr "Кванти запасів"
+
+#. module: stock_quant_history
+#: model:ir.actions.act_window,name:stock_quant_history.action_stock_quant_history
+#: model:ir.actions.act_window,name:stock_quant_history.action_stock_quant_history_snapshot
+msgid "Stock snapshot"
+msgstr "Знімок запасів"
+
+#. module: stock_quant_history
+#: model:ir.model.fields,field_description:stock_quant_history.field_stock_quant_history__product_uom_id
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"

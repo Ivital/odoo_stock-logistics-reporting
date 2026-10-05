@@ -126,3 +126,48 @@ msgstr "Од. вим."
 #: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.report_stock_inventory_valuation_lines_header
 msgid "Value"
 msgstr "Значення"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_stock_inventory_valuation_view__cost_currency_id
+msgid "Cost Currency"
+msgstr "Валюта собівартості"
+
+#. module: stock_inventory_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.view_stock_valuation_quantity_history
+msgid "Export PDF"
+msgstr "Експортувати PDF"
+
+#. module: stock_inventory_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.view_stock_valuation_quantity_history
+msgid "Export XLSX"
+msgstr "Експортувати XLSX"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.actions.client,name:stock_inventory_valuation_report.action_stock_inventory_valuation_report_html
+#: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.report_stock_inventory_valuation_report_base
+msgid "Inventory Valuation Report"
+msgstr "Звіт оцінки запасів"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_report_s_i_v_r_report_stock_inventory_valuation_report_xlsx__write_uid
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_report_stock_inventory_valuation_report__write_uid
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_stock_inventory_valuation_view__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_report_s_i_v_r_report_stock_inventory_valuation_report_xlsx__write_date
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_report_stock_inventory_valuation_report__write_date
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_stock_inventory_valuation_view__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_inventory_valuation_report
+#: model:ir.model.fields,field_description:stock_inventory_valuation_report.field_stock_inventory_valuation_view__standard_price
+msgid "Standard Price"
+msgstr "Стандартна собівартість"
+
+#. module: stock_inventory_valuation_report
+#: model_terms:ir.ui.view,arch_db:stock_inventory_valuation_report.view_stock_valuation_quantity_history
+msgid "View report"
+msgstr "Переглянути звіт"

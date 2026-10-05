@@ -75,3 +75,65 @@ msgstr "Одиниця"
 #: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.view_picking_summary_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.view_picking_summary_wizard_form
+msgid "For Summary"
+msgstr "Для підсумку"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__write_uid
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_picking__write_uid
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__write_date
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_picking__write_date
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__picking_line_ids
+msgid "Picking Line"
+msgstr "Рядок комплектування"
+
+#. module: stock_picking_report_summary
+#: model:ir.actions.act_window,name:stock_picking_report_summary.action_picking_summary
+#: model:ir.actions.report,name:stock_picking_report_summary.report_picking_summary
+msgid "Picking Summary"
+msgstr "Підсумок комплектування"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.view_picking_summary_wizard_form
+msgid "Print PDF"
+msgstr "Друкувати PDF"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__print_summary
+msgid "Print Summary"
+msgstr "Друкувати підсумок"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__quantity_total
+msgid "Quantity Total"
+msgstr "Загальна кількість"
+
+#. module: stock_picking_report_summary
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard__standard_price_total
+#: model:ir.model.fields,field_description:stock_picking_report_summary.field_picking_summary_wizard_product__standard_price_total
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
+msgid "Standard Price Total"
+msgstr "Загальна стандартна собівартість"
+
+#. module: stock_picking_report_summary
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_summary.picking_summary
+msgid "Total price"
+msgstr "Загальна ціна"
