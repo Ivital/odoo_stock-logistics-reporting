@@ -163,3 +163,9 @@ msgstr "Виберіть дату, щоб отримати оцінку стан
 #: model:ir.model,name:stock_account_valuation_report.model_stock_valuation_history
 msgid "Stock Valuation History"
 msgstr "Історія оцінки запасів"
+
+#. module: stock_account_valuation_report
+#. odoo-python
+#: code:addons/stock_account_valuation_report/models/product_product.py:0
+msgid "Accounting Valuation at date"
+msgstr "Бухгалтерська оцінка на дату"
